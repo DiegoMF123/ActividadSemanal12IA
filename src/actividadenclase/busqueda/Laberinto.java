@@ -21,7 +21,8 @@ public class Laberinto {
     
     public Laberinto() {
         System.out.println("Nuevo laberinto de tamaño " + alto + " por " + largo);
-        
+        System.out.println("");
+		
         laberinto = new short[largo + 2][alto + 2];
         
         for (int i = 0; i< largo + 2; i++) {
